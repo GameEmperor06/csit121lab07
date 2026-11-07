@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCU Villains Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>MCU Villains Contact Form</h1>
+    <p>Share your opinions about my MCU tier list!</p>
+  </header>
+
+  <nav>
+    <a href="tierlist.html">Tier List</a>
+    <a href="contact.html">Contact Form</a>
+  </nav>
+
+  <main>
+    <h2>MCU Tier List Feedback</h2>
+
+    <p>
+      Fill out this form to share your opinions about
+      my MCU villains tier list. This form is only
+      for demonstration and does not send information.
+    </p>
+
+    <form action="#" method="get">
+
+      <div class="form-group">
+
+        <label for="name">Name:</label>
+
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your name"
+               required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+      </div>
+
+      <fieldset>
+
+        <legend>1. Who is your favorite MCU villain?</legend>
+
+        <div>
+          <input type="radio"
+                 id="thanos"
+                 name="favorite"
+                 value="Thanos">
+          <label for="thanos">Thanos</label>
+        </div>
+
+        <div>
+          <input type="radio"
+                 id="loki"
+                 name="favorite"
+                 value="Loki">
+          <label for="loki">Loki</label>
+        </div>
+
+        <div>
+          <input type="radio"
+                 id="ultron"
+                 name="favorite"
+                 value="Ultron">
+          <label for="ultron">Ultron</label>
+        </div>
+
+        <div>
+          <input type="radio"
+                 id="hela"
+                 name="favorite"
+                 value="Hela">
+          <label for="hela">Hela</label>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+
+        <label for="tier">
+
+          2. What tier would you give your favorite villain?
+
+        </label>
+
+        <select id="tier" name="tier">
+          <option value="">Select a tier</option>
+
+          <option value="S">S Tier</option>
+
+          <option value="A">A Tier</option>
+
+          <option value="B">B Tier</option>
+
+          <option value="C">C Tier</option>
+
+          <option value="D">D Tier</option>
+
+        </select>
+        
+      </div>
+
+      <fieldset>
+        <legend>
+          3. What makes an MCU villain interesting?
+          (Select all that apply)
+        </legend>
+
+        <div>
+          <input type="checkbox"
+                 id="powers"
+                 name="qualities"
+                 value="Powers">
+          <label for="powers">Powers and abilities</label>
+        </div>
+
+        <div>
+          <input type="checkbox"
+                 id="personality"
+                 name="qualities"
+                 value="Personality">
+          <label for="personality">Personality</label>
+        </div>
+
+        <div>
+          <input type="checkbox"
+                 id="story"
+                 name="qualities"
+                 value="Backstory">
+          <label for="story">Backstory</label>
+        </div>
+
+        <div>
+          <input type="checkbox"
+                 id="impact"
+                 name="qualities"
+                 value="Impact">
+          <label for="impact">Impact on the MCU</label>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="comments">
+          Comments about my MCU tier list:
+        </label>
+
+        <textarea id="comments"
+                  name="comments"
+                  rows="5"
+                  cols="40"
+                  placeholder="Share your thoughts here..."></textarea>
+      </div>
+
+      <div class="buttons">
+        <input type="reset" value="Reset">
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>CSIT 121 - Lab 07 | MCU Villains Tier List</p>
+  </footer>
+</body>
+</html>
